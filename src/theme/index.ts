@@ -5,7 +5,9 @@ import typography from './typography'
 
 const theme = extendTheme({
     textStyles: {
-        displayLarge: typography.displayLarge
+        displayLarge: typography.displayLarge,
+        displayMedium: typography.displayMedium,
+        displaySmall: typography.displaySmall,
     },
 
     colors: {

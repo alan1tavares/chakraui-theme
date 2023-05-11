@@ -9,6 +9,8 @@ export default function Home() {
       <Stack>
         <Heading as='h2'>Tipografia</Heading>
         <Text textStyle='displayLarge'>Display Large</Text>
+        <Text textStyle='displayMedium'>Display Medium</Text>
+        <Text textStyle='displaySmall'>Display Small</Text>
       </Stack>
 
       <Heading as='h2'>Componentes</Heading>
