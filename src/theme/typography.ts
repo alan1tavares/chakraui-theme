@@ -90,9 +90,31 @@ const labelSmall: Typography = {
     letterSpacing: "0.03125rem",
 }
 
+const bodyLarge: Typography = {
+    fontSize: "1rem",
+    fontWeight: "400",
+    lineHeight: "1.5rem",
+    letterSpacing: "0.03125rem",
+}
+
+const bodyMedium: Typography = {
+    fontSize: "0.875rem",
+    fontWeight: "400",
+    lineHeight: "1.25rem",
+    letterSpacing: "0.015625rem",
+}
+
+const bodySmall: Typography = {
+    fontSize: "0.75rem",
+    fontWeight: "400",
+    lineHeight: "1rem",
+    letterSpacing: "0.025rem",
+}
+
 export default {
     displayLarge, displayMedium, displaySmall,
     headlineLarge, headlineMedium, headlineSmall,
     titleLarge, titleMedium, titleSmall,
-    labelLarge, labelMedium, labelSmall  
+    labelLarge, labelMedium, labelSmall,
+    bodyLarge, bodyMedium, bodySmall,
 };

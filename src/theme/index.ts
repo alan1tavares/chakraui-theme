@@ -1,6 +1,5 @@
 // theme.ts (tsx file with usage of StyleFunctions, see 4.)
 import { extendTheme } from '@chakra-ui/react'
-import type { StyleFunctionProps } from '@chakra-ui/styled-system'
 import typography from './typography'
 
 const theme = extendTheme({
@@ -20,6 +19,10 @@ const theme = extendTheme({
         labelLarge: typography.labelLarge,
         labelMedium: typography.labelMedium,
         labelSmall: typography.labelSmall,
+
+        bodyLarge: typography.bodyLarge,
+        bodyMedium: typography.bodyMedium,
+        bodySmall: typography.bodySmall,
     },
 
     colors: {

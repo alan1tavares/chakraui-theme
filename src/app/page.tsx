@@ -23,6 +23,10 @@ export default function Home() {
         <Text textStyle='labelLarge'>Label Large</Text>
         <Text textStyle='labelMedium'>Label Medium</Text>
         <Text textStyle='labelSmall'>Label Small</Text>
+
+        <Text textStyle='bodyLarge'>Body Large</Text>
+        <Text textStyle='bodyMedium'>Body Medium</Text>
+        <Text textStyle='bodySmall'>Body Small</Text>
       </Stack>
 
       <Heading as='h2'>Componentes</Heading>
