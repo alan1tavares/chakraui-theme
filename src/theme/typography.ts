@@ -48,4 +48,29 @@ const headlineSmall: Typography = {
     letterSpacing: "0rem",
 }
 
-export default { displayLarge, displayMedium, displaySmall, headlineLarge, headlineMedium, headlineSmall };
+const titleLarge: Typography = {
+    fontSize: "1.375rem",
+    fontWeight: "400",
+    lineHeight: "1.75rem",
+    letterSpacing: "0rem",
+}
+
+const titleMedium: Typography = {
+    fontSize: "1rem",
+    fontWeight: "500",
+    lineHeight: "1.5rem",
+    letterSpacing: "0.009375rem",
+}
+
+const titleSmall: Typography = {
+    fontSize: "0.875rem",
+    fontWeight: "500",
+    lineHeight: "1.25rem",
+    letterSpacing: "0.00625rem",
+}
+
+export default {
+    displayLarge, displayMedium, displaySmall,
+    headlineLarge, headlineMedium, headlineSmall,
+    titleLarge, titleMedium, titleSmall,  
+};

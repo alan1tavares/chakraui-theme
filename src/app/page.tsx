@@ -15,6 +15,10 @@ export default function Home() {
         <Text textStyle='headlineLarge'>Headline Large</Text>
         <Text textStyle='headlineMedium'>Headline Medium</Text>
         <Text textStyle='headlineSmall'>Headline Small</Text>
+        
+        <Text textStyle='titleLarge'>Title Large</Text>
+        <Text textStyle='titleMedium'>Title Medium</Text>
+        <Text textStyle='titleSmall'>Title Small</Text>
       </Stack>
 
       <Heading as='h2'>Componentes</Heading>

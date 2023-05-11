@@ -12,6 +12,10 @@ const theme = extendTheme({
         headlineLarge: typography.headlineLarge,
         headlineMedium: typography.headlineMedium,
         headlineSmall: typography.headlineSmall,
+        
+        titleLarge: typography.titleLarge,
+        titleMedium: typography.titleMedium,
+        titleSmall: typography.titleSmall,
     },
 
     colors: {
