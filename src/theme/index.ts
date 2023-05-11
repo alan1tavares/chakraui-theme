@@ -16,6 +16,10 @@ const theme = extendTheme({
         titleLarge: typography.titleLarge,
         titleMedium: typography.titleMedium,
         titleSmall: typography.titleSmall,
+        
+        labelLarge: typography.labelLarge,
+        labelMedium: typography.labelMedium,
+        labelSmall: typography.labelSmall,
     },
 
     colors: {

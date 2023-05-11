@@ -19,6 +19,10 @@ export default function Home() {
         <Text textStyle='titleLarge'>Title Large</Text>
         <Text textStyle='titleMedium'>Title Medium</Text>
         <Text textStyle='titleSmall'>Title Small</Text>
+       
+        <Text textStyle='labelLarge'>Label Large</Text>
+        <Text textStyle='labelMedium'>Label Medium</Text>
+        <Text textStyle='labelSmall'>Label Small</Text>
       </Stack>
 
       <Heading as='h2'>Componentes</Heading>

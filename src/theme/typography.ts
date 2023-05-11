@@ -69,8 +69,30 @@ const titleSmall: Typography = {
     letterSpacing: "0.00625rem",
 }
 
+const labelLarge: Typography = {
+    fontSize: "0.875rem",
+    fontWeight: "500",
+    lineHeight: "1.25rem",
+    letterSpacing: "0.00625rem",
+}
+
+const labelMedium: Typography = {
+    fontSize: "0.75rem",
+    fontWeight: "500",
+    lineHeight: "1rem",
+    letterSpacing: "0.03125rem",
+}
+
+const labelSmall: Typography = {
+    fontSize: "0.6875rem",
+    fontWeight: "500",
+    lineHeight: "1rem",
+    letterSpacing: "0.03125rem",
+}
+
 export default {
     displayLarge, displayMedium, displaySmall,
     headlineLarge, headlineMedium, headlineSmall,
-    titleLarge, titleMedium, titleSmall,  
+    titleLarge, titleMedium, titleSmall,
+    labelLarge, labelMedium, labelSmall  
 };
