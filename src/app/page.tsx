@@ -6,11 +6,15 @@ export default function Home() {
   return (
     <Container >
       <Heading as='h1' size={'2xl'} mt={1} mb={2}>Tema</Heading>
-      <Stack>
+      <Stack spacing={2}>
         <Heading as='h2'>Tipografia</Heading>
         <Text textStyle='displayLarge'>Display Large</Text>
         <Text textStyle='displayMedium'>Display Medium</Text>
         <Text textStyle='displaySmall'>Display Small</Text>
+
+        <Text textStyle='headlineLarge'>Headline Large</Text>
+        <Text textStyle='headlineMedium'>Headline Medium</Text>
+        <Text textStyle='headlineSmall'>Headline Small</Text>
       </Stack>
 
       <Heading as='h2'>Componentes</Heading>

@@ -8,6 +8,10 @@ const theme = extendTheme({
         displayLarge: typography.displayLarge,
         displayMedium: typography.displayMedium,
         displaySmall: typography.displaySmall,
+
+        headlineLarge: typography.headlineLarge,
+        headlineMedium: typography.headlineMedium,
+        headlineSmall: typography.headlineSmall,
     },
 
     colors: {
