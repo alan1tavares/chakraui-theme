@@ -1,10 +1,11 @@
 
 'use client'
 
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
 import { CacheProvider } from '@chakra-ui/next-js'
 import { ChakraProvider } from '@chakra-ui/react'
 import theme from '../theme'
-import '@fontsource/roboto'
 
 export function Providers({ 
     children 
