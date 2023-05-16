@@ -3,6 +3,11 @@ import { extendTheme } from '@chakra-ui/react'
 import typography from './typography'
 
 const theme = extendTheme({
+    fonts: {
+        heading: `'Roboto', sans-serif`,
+        body: `'Roboto', sans-serif`,
+    },
+
     textStyles: {
         displayLarge: typography.displayLarge,
         displayMedium: typography.displayMedium,
@@ -11,11 +16,11 @@ const theme = extendTheme({
         headlineLarge: typography.headlineLarge,
         headlineMedium: typography.headlineMedium,
         headlineSmall: typography.headlineSmall,
-        
+
         titleLarge: typography.titleLarge,
         titleMedium: typography.titleMedium,
         titleSmall: typography.titleSmall,
-        
+
         labelLarge: typography.labelLarge,
         labelMedium: typography.labelMedium,
         labelSmall: typography.labelSmall,
