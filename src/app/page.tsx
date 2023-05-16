@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Container >
       <Heading as='h1' size={'2xl'} mt={1} mb={2}>Tema</Heading>
-      <Stack spacing={2}>
+      <Stack spacing={2} mb={4}>
         <Heading as='h2'>Tipografia</Heading>
         <Text textStyle='displayLarge'>Display Large</Text>
         <Text textStyle='displayMedium'>Display Medium</Text>
@@ -29,9 +29,9 @@ export default function Home() {
         <Text textStyle='bodySmall'>Body Small</Text>
       </Stack>
 
-      <Heading as='h2'>Componentes</Heading>
-      <Stack>
-        <Button>alan1tavares</Button>
+      <Stack mb={4}>
+        <Heading as='h2'>Componentes</Heading>
+        <Button maxW={'100px'}>Button</Button>
       </Stack>
     </Container>
   )

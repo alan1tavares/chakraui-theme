@@ -6,6 +6,8 @@ interface Typography {
     fontWeight: string;
 }
 
+const font: string = `'Roboto', sans-serif`;
+
 const displayLarge: Typography = {
     fontSize: "3.5625rem",
     fontWeight: "400",
@@ -112,6 +114,7 @@ const bodySmall: Typography = {
 }
 
 export default {
+    font,
     displayLarge, displayMedium, displaySmall,
     headlineLarge, headlineMedium, headlineSmall,
     titleLarge, titleMedium, titleSmall,

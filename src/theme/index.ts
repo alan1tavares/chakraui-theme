@@ -4,8 +4,8 @@ import typography from './typography'
 
 const theme = extendTheme({
     fonts: {
-        heading: `'Roboto', sans-serif`,
-        body: `'Roboto', sans-serif`,
+        heading: typography.font,
+        body: typography.font,
     },
 
     textStyles: {
