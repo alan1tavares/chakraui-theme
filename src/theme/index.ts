@@ -37,6 +37,11 @@ const theme = extendTheme({
             900: "#1a202c",
         },
         primary: {
+            50: "#FFF6F6",
+            100: "#FFE6E5",
+            200: "#FFD5D5",
+            300: "#FFC5C4",
+            400: "#FFB4B4",
             500: '#FFA4A3',
             600: '#D18686',
             700: '#A36968',
@@ -45,11 +50,24 @@ const theme = extendTheme({
     },
     components: {
         Button: {
+            baseStyle: {
+                _hover: {
+                    color: "white",
+                    boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15)"
+                },
+                _focus: {
+                    color: "primary.900",
+                    boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15)"
+                },
+                _active: {
+                    boxShadow: "none",
+                }
+            },
             variants: {
                 solid: {
                     color: 'primary.900',
                     borderRadius: '16px',
-                    boxShadow: '0px 4px 4px rgba(64, 41, 41, 0.25)',
+                    ...typography.labelLarge,
                 }
             },
 

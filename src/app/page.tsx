@@ -15,11 +15,11 @@ export default function Home() {
         <Text textStyle='headlineLarge'>Headline Large</Text>
         <Text textStyle='headlineMedium'>Headline Medium</Text>
         <Text textStyle='headlineSmall'>Headline Small</Text>
-        
+
         <Text textStyle='titleLarge'>Title Large</Text>
         <Text textStyle='titleMedium'>Title Medium</Text>
         <Text textStyle='titleSmall'>Title Small</Text>
-       
+
         <Text textStyle='labelLarge'>Label Large</Text>
         <Text textStyle='labelMedium'>Label Medium</Text>
         <Text textStyle='labelSmall'>Label Small</Text>
@@ -31,7 +31,9 @@ export default function Home() {
 
       <Stack mb={4}>
         <Heading as='h2'>Componentes</Heading>
-        <Button maxW={'100px'}>Button</Button>
+        <Button
+          maxW={'100px'}
+        >Button</Button>
       </Stack>
     </Container>
   )
