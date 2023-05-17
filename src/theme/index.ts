@@ -2,6 +2,7 @@
 import { extendTheme } from '@chakra-ui/react';
 import typography from './typography';
 import color from './color';
+import elevation from './elevation';
 
 const theme = extendTheme({
     fonts: {
@@ -34,16 +35,21 @@ const theme = extendTheme({
     colors: {
         primary: color.primary,
     },
+
+    shadows: {
+        elevation: elevation
+    },
+
     components: {
         Button: {
             baseStyle: {
                 _hover: {
                     color: "white",
-                    boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15)"
+                    boxShadow: "elevation.1"
                 },
                 _focus: {
                     color: "primary.900",
-                    boxShadow: "0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15)"
+                    boxShadow: "elevation.1"
                 },
                 _active: {
                     boxShadow: "none",
