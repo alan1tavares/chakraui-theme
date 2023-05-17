@@ -35,6 +35,10 @@ export default function Home() {
           maxW={'100px'}
           variant='primarySolid'
         >Button</Button>
+        <Button
+          maxW={'100px'}
+          variant='primaryOutline'
+        >Button</Button>
       </Stack>
     </Container>
   )

@@ -3,7 +3,7 @@ import { extendTheme } from '@chakra-ui/react';
 import typography from './typography';
 import color from './color';
 import elevation from './elevation';
-import Button from './button';
+import Button from './Button';
 
 const theme = extendTheme({
     fonts: {
