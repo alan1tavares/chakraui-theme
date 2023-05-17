@@ -3,6 +3,7 @@ import { extendTheme } from '@chakra-ui/react';
 import typography from './typography';
 import color from './color';
 import elevation from './elevation';
+import Button from './button';
 
 const theme = extendTheme({
     fonts: {
@@ -39,40 +40,8 @@ const theme = extendTheme({
     shadows: {
         elevation: elevation
     },
-
     components: {
-        Button: {
-            baseStyle: {
-                ...typography.labelLarge,
-            },
-            variants: {
-                primarySolid: {
-                    backgroundColor: 'primary.500',
-                    color: 'primary.900',
-                    borderRadius: '16px',
-                    _hover: {
-                        backgroundColor: 'primary.300',
-                        boxShadow: "elevation.1",
-                    },
-                    _focus: {
-                        backgroundColor: 'primary.400',
-                        boxShadow: "elevation.1"
-                    },
-                    _active: {
-                        boxShadow: "none",
-                    },
-                }
-            },
-            sizes: {
-                md: {
-                    px: "1.5rem",
-                }
-            },
-            defaultProps: {
-                variant: 'primarySolid',
-                sizes: 'md',
-            },
-        },
+        Button
     },
 })
 

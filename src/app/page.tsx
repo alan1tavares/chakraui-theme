@@ -33,6 +33,7 @@ export default function Home() {
         <Heading as='h2'>Componentes</Heading>
         <Button
           maxW={'100px'}
+          variant='primarySolid'
         >Button</Button>
       </Stack>
     </Container>
