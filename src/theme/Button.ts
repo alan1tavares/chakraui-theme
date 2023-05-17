@@ -5,18 +5,18 @@ const Button = defineStyleConfig({
     baseStyle: {
         ...typography.labelLarge,
         minH: '40px',
+        borderRadius: '16px',
     },
     variants: {
         primarySolid: {
             backgroundColor: 'primary.500',
-            borderRadius: '16px',
             color: 'primary.900',
             _hover: {
-                backgroundColor: 'primary.300',
+                backgroundColor: 'primary.100',
                 boxShadow: "elevation.1",
             },
             _focus: {
-                backgroundColor: 'primary.400',
+                backgroundColor: 'primary.50',
                 boxShadow: "elevation.1"
             },
             _active: {
@@ -26,10 +26,24 @@ const Button = defineStyleConfig({
         primaryOutline: {
             border: '1px solid',
             borderColor: 'primary.500',
-            borderRadius: '16px',
             color: 'primary.900',
             _hover: {
+                backgroundColor: 'primary.100',
+                boxShadow: "elevation.1",
+            },
+            _focus: {
                 backgroundColor: 'primary.50',
+                boxShadow: "elevation.1",
+            },
+            _active: {
+                boxShadow: "none",
+            },
+        },
+        primaryText: {
+            color: 'primary.900',
+            px: '0.75rem',
+            _hover: {
+                backgroundColor: 'primary.100',
                 boxShadow: "elevation.1",
             },
             _focus: {
@@ -44,7 +58,7 @@ const Button = defineStyleConfig({
     sizes: {
         solid: {
             px: "1.5rem",
-        }
+        },
     },
     defaultProps: {
         variant: 'primarySolid',
