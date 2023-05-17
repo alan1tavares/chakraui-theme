@@ -43,34 +43,33 @@ const theme = extendTheme({
     components: {
         Button: {
             baseStyle: {
-                _hover: {
-                    color: "white",
-                    boxShadow: "elevation.1"
-                },
-                _focus: {
-                    color: "primary.900",
-                    boxShadow: "elevation.1"
-                },
-                _active: {
-                    boxShadow: "none",
-                }
+                ...typography.labelLarge,
             },
             variants: {
-                solid: {
+                primarySolid: {
+                    backgroundColor: 'primary.500',
                     color: 'primary.900',
                     borderRadius: '16px',
-                    ...typography.labelLarge,
+                    _hover: {
+                        backgroundColor: 'primary.300',
+                        boxShadow: "elevation.1",
+                    },
+                    _focus: {
+                        backgroundColor: 'primary.400',
+                        boxShadow: "elevation.1"
+                    },
+                    _active: {
+                        boxShadow: "none",
+                    },
                 }
             },
-
             sizes: {
                 md: {
-                    px: 6,
+                    px: "1.5rem",
                 }
             },
-
             defaultProps: {
-                colorScheme: 'primary',
+                variant: 'primarySolid',
                 sizes: 'md',
             },
         },
