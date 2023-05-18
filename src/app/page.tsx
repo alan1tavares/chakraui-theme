@@ -1,6 +1,6 @@
 'use client';
 
-import { Button, Container, Heading, Stack, Text } from '@chakra-ui/react'
+import { Button, Container, Heading, Input, Stack, Text } from '@chakra-ui/react'
 
 export default function Home() {
   return (
@@ -43,6 +43,9 @@ export default function Home() {
           maxW={'100px'}
           variant='primaryText'
         >Button</Button>
+        <Input
+          placeholder='Placeholder'
+        />
       </Stack>
     </Container>
   )

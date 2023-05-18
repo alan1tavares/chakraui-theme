@@ -4,6 +4,7 @@ import typography from './typography';
 import color from './color';
 import elevation from './elevation';
 import Button from './Button';
+import Input from './Input';
 
 const theme = extendTheme({
     fonts: {
@@ -41,7 +42,8 @@ const theme = extendTheme({
         elevation: elevation
     },
     components: {
-        Button
+        Button,
+        Input,
     },
 })
 
