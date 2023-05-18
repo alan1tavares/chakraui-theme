@@ -5,6 +5,7 @@ import color from './color';
 import elevation from './elevation';
 import Button from './Button';
 import Input from './Input';
+import FormLabel from './FormLabel';
 
 const theme = extendTheme({
     fonts: {
@@ -44,6 +45,7 @@ const theme = extendTheme({
     components: {
         Button,
         Input,
+        FormLabel,
     },
 })
 
