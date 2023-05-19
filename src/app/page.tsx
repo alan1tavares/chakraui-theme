@@ -1,6 +1,7 @@
 'use client';
 
-import { Button, Container, FormControl, FormLabel, Heading, Input, Stack, Text } from '@chakra-ui/react'
+import { Box, Button, Container, FormControl, FormLabel, Heading, Input, Link, Stack, Text } from '@chakra-ui/react';
+import NextLink from 'next/link';
 
 export default function Home() {
   return (
@@ -49,6 +50,18 @@ export default function Home() {
             placeholder='Placeholder'
           />
         </FormControl>
+        <Box>
+          <Link
+            as={NextLink}
+            href='/'
+            variant='navLink'
+          >Link</Link>
+          <Link
+            as={NextLink}
+            href='/'
+            variant='navLink'
+          >Link</Link>
+        </Box>
       </Stack>
     </Container>
   )

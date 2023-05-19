@@ -6,6 +6,7 @@ import elevation from './elevation';
 import Button from './Button';
 import Input from './Input';
 import FormLabel from './FormLabel';
+import Link from './Link';
 
 const theme = extendTheme({
     fonts: {
@@ -46,6 +47,7 @@ const theme = extendTheme({
         Button,
         Input,
         FormLabel,
+        Link,
     },
 })
 
